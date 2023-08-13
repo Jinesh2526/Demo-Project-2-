@@ -1,0 +1,23 @@
+.bigbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+
+}
+.DP{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11rem;
+  width: 100%;
+  background-color:black;
+}
+.DP > img{
+height: 10rem;
+width:18rem;
+display:flex;
+justify-content: center;
+align-items: center;
+}
