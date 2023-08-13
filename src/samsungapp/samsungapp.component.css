@@ -29,3 +29,11 @@
   border: 1px solid black;
   box-shadow: 2px 3px;
 }
+p{
+  height: 3rem;
+  width: 15rem;
+  color: black;
+  font-size: 2rem;
+font-weight: bolder;
+  /* background-color: bisque; */
+}
