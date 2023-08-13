@@ -1,0 +1,31 @@
+.bigbox{
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  height: 44rem;
+  width: 100%;
+  padding: 1rem;
+}
+.Samsung{
+  display: flex;
+  background-color: red;
+  justify-content:center ;
+  align-items: center;
+  height: 30rem;
+  width: 80%;
+  border: 1px solid black;
+  box-shadow: 2px 3px;
+ 
+}
+.Samsung-details{
+  display: flex;
+  background-color:blue;
+  justify-content: center;
+  align-items: center;
+  height: 14rem;
+  width: 60%;
+  border: 1px solid black;
+  box-shadow: 2px 3px;
+}
