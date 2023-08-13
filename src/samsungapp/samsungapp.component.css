@@ -4,36 +4,36 @@
   /* background-color: aqua; */
   justify-content: center;
   align-items: center;
-  height: 44rem;
-  width: 100%;
-  padding: 1rem;
+  height:100vh;
+  width:100vw;
+  padding: 0.5rem;
 }
 .Samsung{
   display: flex;
   /* background-color: red; */
   justify-content:center ;
   align-items: center;
-  height: 30rem;
-  width: 80%;
-  border: 1px solid black;
-  box-shadow: 2px 3px;
+  height:60vh;
+  width:100%; 
+   /* border: 1px solid black; */
+  /* box-shadow: 2px 3px; */
  
 }
 .Samsung-details{
   display: flex;
-  background-color:blue;
+  /* background-color:blue; */
   justify-content: center;
   align-items: center;
-  height: 14rem;
-  width: 60%;
+  height:30vh;
+  width:60%;
   border: 1px solid black;
   box-shadow: 2px 3px;
+  margin-bottom: 1rem;
 }
-p{
-  height: 3rem;
-  width: 15rem;
-  color: black;
-  font-size: 2rem;
-font-weight: bolder;
-  /* background-color: bisque; */
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 30%;
 }
