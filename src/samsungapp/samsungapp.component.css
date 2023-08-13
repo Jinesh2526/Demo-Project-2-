@@ -1,7 +1,7 @@
 .bigbox{
   display: flex;
   flex-direction: column;
-  background-color: aqua;
+  /* background-color: aqua; */
   justify-content: center;
   align-items: center;
   height: 44rem;
@@ -10,7 +10,7 @@
 }
 .Samsung{
   display: flex;
-  background-color: red;
+  /* background-color: red; */
   justify-content:center ;
   align-items: center;
   height: 30rem;
