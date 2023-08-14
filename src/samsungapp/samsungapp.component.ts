@@ -1,5 +1,6 @@
 import { Component, importProvidersFrom, OnInit } from '@angular/core';
 import { SamsungDetailsComponent } from './samsung-details/samsung-details.component';
+import { SamsungProduct } from './samsung-product';
 import { SamsungComponent } from './samsung/samsung.component';
 
 
@@ -16,8 +17,9 @@ export class SamsungappComponent implements OnInit {
 
   ngOnInit() {
   }
-  onSamsungSelected(event:any)
+  onSamsungSelected(samsung:SamsungProduct)
   {
-    console.log(event);
+    console.log(samsung);
+    
   }
 }
