@@ -9,7 +9,7 @@ import { SamsungProduct } from '../samsung-product';
 })
 export class SamsungDetailsComponent implements OnInit,OnChanges {
  @Input()
-selectedsam?: SamsungProduct;
+selectedsam!: SamsungProduct;
   constructor() { 
   
   }
@@ -18,7 +18,7 @@ selectedsam?: SamsungProduct;
     // console.log(this.selectedsam)
   }
   ngOnChanges(){
-    console.log(this.selectedsam);
+    // console.log(this.selectedsam);
   }
 
 }
