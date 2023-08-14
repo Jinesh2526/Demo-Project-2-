@@ -14,12 +14,13 @@ import { SamsungComponent } from './samsung/samsung.component';
 export class SamsungappComponent implements OnInit {
 
   constructor() { }
-
+selectedsam!:SamsungProduct;
   ngOnInit() {
   }
   onSamsungSelected(samsung:SamsungProduct)
   {
     console.log(samsung);
-    
+    this.selectedsam = samsung;
+
   }
 }
