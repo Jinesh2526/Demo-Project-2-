@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, OnInit } from '@angular/core';
 import { SamsungProduct } from '../samsung-product';
 
 @Component({
@@ -7,14 +7,18 @@ import { SamsungProduct } from '../samsung-product';
   templateUrl: './samsung-details.component.html',
   styleUrls: ['./samsung-details.component.css']
 })
-export class SamsungDetailsComponent implements OnInit {
+export class SamsungDetailsComponent implements OnInit,OnChanges {
  @Input()
 selectedsam?: SamsungProduct;
   constructor() { 
   
   }
 
-  ngOnInit() {  console.log(this.selectedsam)
+  ngOnInit() {  
+    // console.log(this.selectedsam)
+  }
+  ngOnChanges(){
+    console.log(this.selectedsam);
   }
 
 }
