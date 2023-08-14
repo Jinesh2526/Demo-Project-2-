@@ -11,10 +11,10 @@ export class SamsungDetailsComponent implements OnInit {
  @Input()
 selectedsam?: SamsungProduct;
   constructor() { 
-    console.log(this.selectedsam)
+  
   }
 
-  ngOnInit() {
+  ngOnInit() {  console.log(this.selectedsam)
   }
 
 }
