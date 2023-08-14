@@ -3,6 +3,7 @@
     class="samsung-box-inside"
     *ngFor="let SamsungProduct of samsung"
     [samsungProduct]="SamsungProduct"
+    (click)="onSelected(SamsungProduct)"
   >
   </app-samsung-box-inside>
 </div>

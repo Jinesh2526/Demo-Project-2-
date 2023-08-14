@@ -10,6 +10,17 @@
   padding: 3rem;
   border: 3rem solid #ccc;
 }
+.bigbox:hover{
+  background-color: aqua;
+  height: 42vh;
+  /* width: 24rem; */
+  box-shadow: 1px 1px 3px rgba(250, 250, 250, 0.3);
+}
+/* .MRP{} */
+/* .MRP:hover{
+  font-size: 1.5rem;
+  font-weight: bold;
+} */
 .DP{
   display: flex;
   justify-content: center;
