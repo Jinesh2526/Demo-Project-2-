@@ -16,5 +16,8 @@ export class SamsungappComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  onSamsungSelected(event:any)
+  {
+    console.log(event);
+  }
 }

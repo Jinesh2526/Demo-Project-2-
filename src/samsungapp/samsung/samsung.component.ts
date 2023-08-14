@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { SamsungBoxInsideComponent } from './samsung-box-inside/samsung-box-inside.component';
 import { SamsungProduct } from '../samsung-product';
 import { SAMSUNG } from '../samsung-product-detail';
@@ -13,6 +13,7 @@ import { SAMSUNG } from '../samsung-product-detail';
 })
 export class SamsungComponent implements OnInit {
   samsung: SamsungProduct[] = [];
+  @Output() SamsungSelected = new EventEmitter<SamsungProduct>();
   constructor() {}
 
   ngOnInit() {
@@ -20,5 +21,6 @@ export class SamsungComponent implements OnInit {
   }
   onSelected(SamsungProduct: SamsungProduct) {
     console.log(SamsungProduct);
+    this.SamsungSelected.emit(SamsungProduct)
   }
 }
