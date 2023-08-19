@@ -2,23 +2,19 @@ import { Component, Input, OnChanges, OnInit } from '@angular/core';
 import { SamsungProduct } from '../samsung-product';
 
 @Component({
-  standalone:true,
+  standalone: true,
   selector: 'app-samsung-details',
   templateUrl: './samsung-details.component.html',
-  styleUrls: ['./samsung-details.component.css']
+  styleUrls: ['./samsung-details.component.css'],
 })
-export class SamsungDetailsComponent implements OnInit,OnChanges {
- @Input()
-selectedsam!: SamsungProduct;
-  constructor() { 
-  
-  }
+export class SamsungDetailsComponent implements OnInit, OnChanges {
+  @Input()selectedsam!: SamsungProduct;
+  constructor() {}
 
-  ngOnInit() {  
+  ngOnInit() {
     // console.log(this.selectedsam)
   }
-  ngOnChanges(){
+  ngOnChanges() {
     // console.log(this.selectedsam);
   }
-
 }
